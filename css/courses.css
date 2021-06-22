@@ -40,7 +40,7 @@
     height: 100px;
     width: 230px;
     max-height: 100%;
-      max-width: 100%;
+    max-width: 100%;
   }
   .link{
     margin: 10px;
@@ -52,7 +52,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 250px;
+      width: 250px auto;
   }
   .details p{
     font-family: 'Montserrat', sans-serif;
@@ -72,7 +72,7 @@
     margin: 10px;
   }
   .logo{
-      height: 60px;
+    height: 60px;
   }
   .box:hover{
       transform-style: preserve-3d;
@@ -83,3 +83,102 @@
       color:#c0292b;
       transition: all ease 0.5s;
   }
+@media screen and (max-width: 1200px){
+  .box{
+      width:180px;
+      height:410px;
+  }
+.model{
+    height: 100px;
+}
+.model2{
+  height: 200px;
+}
+.model3{
+  height: 50px;
+  width: 150px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.link{
+  margin: 10px;
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
+  color: #E0F2F1;
+}
+.details p{
+  font-size: small;
+  margin: 0px;
+}
+
+.marvel{
+    color:#a1a1a1;
+    font-weight: bold;
+    font-family: bebas kai;
+    font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.logo{
+  height: 30px;
+}
+  }
+@media screen and (max-width: 1000px){
+  .two{
+    width:100%;
+    height: 100vh;
+    align-items:initial;
+  }
+  .two .item-aa{
+  
+    display:table-cell 5%;
+    margin:auto;
+  
+  }
+    .box{
+        width:100px;
+        height:410px;
+    }
+  .model{
+      height: 10px;
+  }
+  .model2{
+    height: 100px;
+  }
+  .model3{
+    height: 50px;
+    width: 80px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .link{
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    color: #E0F2F1;
+    font-size:x-small
+  }
+  .details p{
+    font-size: small;
+    margin: 0px;
+  }
+  
+  .marvel{
+      color:#a1a1a1;
+      font-weight: bold;
+      font-family: bebas kai;
+      font-size: 15px;
+    text-align: center;
+    margin: 10px;
+  }
+  .logo{
+    height: 30px;
+  }
+    }
+
+ /* @media screen and (min-width: 426px) {
+    .box{
+      width:150px;
+      height:110px;
+    }
+  }*/

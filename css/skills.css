@@ -1,9 +1,8 @@
-
 .skills-title{
   text-align: center;
   margin-top: 50px;
   font-family: 'Fjalla One', sans-serif;
-  color: #c0292b;
+  color: #ffffff;
   font-size: 3em;
 }
 .wrapper-skills{
@@ -31,4 +30,18 @@
 .text-skills{
   color: #c0292b;
   font-family: 'Fjalla One', sans-serif;
+}
+@media(max-width: 900px){
+  .wrapper-skills{
+    width: 100px;
+    display: block;
+  }
+  .wrapper-skills .card{
+    width: 50px;
+  height: 30px;
+  display: block;
+  }
+  .four{
+    height: auto;
+  }
 }

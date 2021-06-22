@@ -1,90 +1,121 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-.three{
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-  }
-  .column{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    color:black
-  }
-  .page-title{
-    font-size:2em;
-    color: #c0292b;
-    width: 100px;
-    font-family: 'Orbitron', sans-serif;
-    transform: rotate(-90deg);
-
-
-  /* Legacy vendor prefixes that you probably don't need... */
-
-  /* Safari */
-  -webkit-transform: rotate(-90deg);
-
-  /* Firefox */
-  -moz-transform: rotate(-90deg);
-
-  /* IE */
-  -ms-transform: rotate(-90deg);
-
-  /* Opera */
-  -o-transform: rotate(-90deg);
-
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  }
-  .project{
-    height: 250px;
-    width: 200px;
-    margin: 50px;
-    background-color: #4d4a4a;
-    border-radius: 5%;
-    box-shadow: 2px 10px 12px rgba(102, 100, 100, 0.5);
+  .three{
+    height: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  .project:hover{
-    transform-style: preserve-3d;
-    transform: scale(1.02);
-    transition: all ease 0.3s;
-    box-shadow: 10px 10px #000000;
-}
-  .img-project{
-    height: 155px;
-    width: 201px;
-    border-radius: 5%;
-  }
-  .project-name{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: black;
-  }
-  .three .one .project-name{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: black;
-  }
-  .three .three .project-name{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: black;
-    
     align-items: center;
     justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
   }
-  .three .two .project{
-    margin:auto;
-    margin-top: 45px;
-    width: 215px;
+  .row h2{
+    font-size: 3em;
+    color: #ffffff;
+    margin-left: 150px;
   }
-  .three .two .project .img-project{
-    width: 217px;
-  }
-  .three .three .project{
-    text-align: center;
-  }
+  .work__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+@media(max-width: 900px) {
+    .work__box {
+        align-items: initial;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+}
+
+.work__box:not(:last-child) {
+    margin-bottom: 25rem;
+}
+
+@media(max-width: 500px) {
+    .work__box:not(:last-child) {
+        margin-bottom: 20rem;
+    }
+}
+
+.work__links {
+    display: flex;
+    align-items: center;
+}
+
+.work__text {
+    flex: 0 0 30%;
+    font-size: large;
+}
+
+.work__text h3{
+  font-size: 2em;
+  color: #c0292b;
+}
+
+.work__list {
+    /* list-style-type: square; */
+    list-style-position: inside;
+    margin-bottom: var(--gutter-normal);
+}
+
+.work__code {
+    display: block;
+    height: 3rem;
+    margin-left: var(--gutter-normal);
+    transition: all .3s;
+    margin: 15px;
+}
+
+.work__code:hover {
+    transform: scale(1.2);
+}
+
+.work__image-box {
+    margin-bottom: var(--gutter-normal);
+}
+.work__image1{
+  height: 420px;
+  width: 620px;
+  border-radius: 3%;
+  box-shadow: 0 0 20px #ffbb00;
+}
+.work__image2{
+  height: 420px;
+  width: 620px;
+  border-radius: 3%;
+  box-shadow: 0 0 20px #ffbb00;
+}
+.work__image3{
+  height: 420px;
+  width: 620px;
+  border-radius: 3%;
+  box-shadow: 0 0 20px #ffbb00;
+}
+
+@media(min-width: 901px) {
+    .work__image-box {
+        flex: 1;
+        margin: 0 0 0 10rem;
+    }
+    
+}
+
+@media(max-width: 900px) {
+    .work__code {
+        height: 4rem;
+    }
+    .work__image1{
+      height: 350px;
+      width: 340px;
+    }
+    .work__image2{
+      height: 350px;
+      width: 340px;
+    }
+    .work__image3{
+      height: 350px;
+      width: 340px;
+    }
+    .three{
+      margin-left: 20px;
+    }
+}

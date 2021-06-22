@@ -209,7 +209,7 @@ body{
   color: #c0292b;
 }
 .container{
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 100vh;
 }
@@ -234,4 +234,13 @@ body{
 .wrapper.active .main_container .container{
   width: calc(100% - 80px);
   margin-left: 80px;
+}
+@media(max-width: 900px){
+  .wrapper.active .sidebar{
+    display: none;
+  }
+  .wrapper.active .main_container .container{
+    margin-left: 0px;
+    width: auto;
+  }
 }
