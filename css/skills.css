@@ -1,0 +1,34 @@
+
+.skills-title{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #c0292b;
+  font-size: 3em;
+}
+.wrapper-skills{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: auto;
+}
+.wrapper-skills .card{
+  width: calc(33% - 20px);
+  height: 300px;
+  margin: 30px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.card .boxx img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8%;
+}
+.text-skills{
+  color: #c0292b;
+  font-family: 'Fjalla One', sans-serif;
+}

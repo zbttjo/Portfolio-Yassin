@@ -1,0 +1,29 @@
+.one{
+    color: #fff;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+  
+  }
+  .one h1{
+    color: #fff;
+    margin: 5px;
+    margin-top: 180px;
+    font-size:medium
+  
+  }
+  .one h2{
+    color: #fff;
+    margin: 5px;
+    font-size:6em
+  }
+  .one h3{
+    color: #fff;
+    margin: 5px;
+    font-size: 2em;
+  }
+  .one p{
+    color: #fff;
+    justify-content: center;
+      text-align: center;
+    margin:auto;
+  }
