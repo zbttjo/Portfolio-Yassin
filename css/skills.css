@@ -1,3 +1,4 @@
+
 .skills-title{
   text-align: center;
   margin-top: 50px;
@@ -43,5 +44,8 @@
   }
   .four{
     height: auto;
+  }
+  .text-skills{
+    display: none;
   }
 }
