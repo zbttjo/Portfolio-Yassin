@@ -260,6 +260,9 @@ a{
     margin-top: 150px;
 
   }
+  .main_container .sidebar{
+    width:100%;
+  }
 }
 .footer {
   position: relative;
