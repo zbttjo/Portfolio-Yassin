@@ -1,15 +1,15 @@
 #loading{
-	/*background-color: #0F0E0E;*/
-  background-image: url('/image/background.jpg');
+background-color: #0F0E0E;
+  /*background-image: url('/image/background.jpg');
   background-repeat:repeat;
   background-attachment:fixed;
-  background-size:50%;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	z-index: 2;
-	margin-top: 0px;
-	top: 0px;
+  background-size:50%;*/
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  top: 0px;
   -moz-animation: cssAnimation 0s ease-in 3s forwards;
   /* Firefox */
   -webkit-animation: cssAnimation 0s ease-in 3s forwards;
