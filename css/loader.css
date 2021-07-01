@@ -7,7 +7,7 @@ background-color: #0F0E0E;
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   margin-top: 0px;
   top: 0px;
   -moz-animation: cssAnimation 0s ease-in 3s forwards;
